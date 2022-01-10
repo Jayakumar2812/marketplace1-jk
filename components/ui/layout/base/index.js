@@ -13,5 +13,6 @@ export default function BaseLayout({children}) {
       </div>
       <Footer />
     </Web3Provider>
+
   )
 }

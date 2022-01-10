@@ -6,7 +6,7 @@ import { getAllCourses } from "@content/courses/fetcher"
 
 export default function Home({courses}) {
   return (
-    <>
+    <div >
       <Hero />
       <CourseList
         courses={courses}
@@ -17,7 +17,7 @@ export default function Home({courses}) {
       course={course} 
       />}
       </CourseList>
-    </>
+    </div>
   )
 }
 

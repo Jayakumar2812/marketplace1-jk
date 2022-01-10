@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
   const Layout = Component.Layout ?? Noop
 
   return (
-    <Layout>
+    <Layout >
       <ToastContainer/>
       <Component {...pageProps} />
     </Layout>
