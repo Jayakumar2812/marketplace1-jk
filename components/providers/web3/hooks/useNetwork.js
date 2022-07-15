@@ -9,7 +9,7 @@ const NETWORKS = {
   5: "Goerli Test Network",
   42: "Kovan Test Network",
   56: "Binance Smart Chain",
-  80001:"Polygon Mumabai Test Network",
+  80001:"Polygon Mumbai Test Network",
   137: "Polygon Mainnet Network",
   1337: "Ganache",
 }
